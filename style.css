@@ -1,0 +1,283 @@
+#header{
+			
+			font:normal 12px Tahoma,Verdana; /* Setting umum font pada bagian header */
+			width:auto; /* Digunakan untuk mengatur lebar header */
+			height:105px; /* Digunakan untuk mengatur tinggi header */
+			margin-left:auto; /* Digunakan untuk mengatur jarak header dengan tepian layar secara otomatis */
+			margin-right:auto; /* Sehingga tampilan header website akan berada tepat di tengah-tengah layar monitor */
+			background-color:#2B3349;
+			/*border-radius: 20px 20px 20px 20px;*/
+		}
+#footer{
+	font:normal 12px Tahoma,Verdana; /* Setting umum font pada bagian header */
+			width:auto; /* Digunakan untuk mengatur lebar header */
+			height:40px;
+		padding-top: 10px; /* Digunakan untuk mengatur tinggi header */
+			margin-left:auto; /* Digunakan untuk mengatur jarak header dengan tepian layar secara otomatis */
+			margin-right:auto; /* Sehingga tampilan header website akan berada tepat di tengah-tengah layar monitor */
+			background-color:#2B3349;
+}
+#footer2{
+	font:normal 12px Tahoma,Verdana; /* Setting umum font pada bagian header */
+			width:auto; /* Digunakan untuk mengatur lebar header */
+			height:40px;
+		padding-top: 0px; /* Digunakan untuk mengatur tinggi header */
+			margin-left:auto; /* Digunakan untuk mengatur jarak header dengan tepian layar secara otomatis */
+			margin-right:auto; /* Sehingga tampilan header website akan berada tepat di tengah-tengah layar monitor */
+			background-color:#2B3349
+}
+#footer1{
+	font:normal 12px Tahoma,Verdana; /* Setting umum font pada bagian header */
+			width:auto; /* Digunakan untuk mengatur lebar header */
+			height:45px;
+		padding-top: 10px; /* Digunakan untuk mengatur tinggi header */
+			margin-left:auto; /* Digunakan untuk mengatur jarak header dengan tepian layar secara otomatis */
+			margin-right:auto; /* Sehingga tampilan header website akan berada tepat di tengah-tengah layar monitor */
+			background-color:#282D3C;
+}
+#diatasheader{
+	width: auto;
+
+	height: 45px;
+	background-color: #D40000;
+}
+#Produk{
+			width: auto;
+			background-color: white;
+			height: 377px;
+			}
+#TextHomeProduk{
+		font-size: 25px;
+		color: #f60;
+		margin-left: 180px;
+		padding-top:45px;
+}
+#GambarProduk {
+					width: 140px;
+					height: 285px;
+
+					padding-left: 10px;
+					padding-right: 10px;
+					margin-left: 155px;
+					float: left;
+					border-left: 5;
+					border-color: gray;
+				}
+#GambarProduk1 {
+					width: 140px;
+					height: 285px;
+					padding-left: 10px;
+					padding-right: 10px;
+					margin-left: 20px;
+					float: left;
+					border-left: 5;
+					border-color: gray;
+				}
+#Gambarnya {
+			margin-top: 10px;
+}
+#NamaBarang{
+			padding-top:15px;
+			text-align: center;
+			font-size: 15px;
+			color: gray;
+}
+#Harga{
+		padding-top:15px;
+		font-size: 20px;
+		color: #d45500;
+		text-align: center;
+}
+#Logo{
+	background:url(image/KING.png);
+	padding-left: 80px;
+}
+#wrapper{
+        	    width: auto;
+    			height: 528px;
+   				margin-top: 2px;
+    			/*margin-left:200px;*/
+        		background-color:#63605c78;
+        		border-radius: 20px 20px 20px 20px;
+
+        }
+.buttonatas {
+  margin: 1 auto;
+  width:150px;
+  height: 40px;
+  padding-top:0px;
+  border:solid 0px;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font:  15px/40px Verdana;
+  text-shadow: 1px 2px 1px red;
+  float: right;
+  transition: all 0.8s;
+
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s}
+
+.buttonatas:hover {
+  /*nilai perubahan*/
+  background: red;
+  color: white;
+  text-shadow: 1px 2px 2px #111;
+  transform:rotate(0deg);
+  text-decoration: none;
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  box-shadow: 2px 4px 3px 2px #222}
+
+  .buttonbawah {
+  margin: 1 auto;
+  width:100px;
+  height: 40px;
+  padding-top:0px;
+  border:solid 0px;
+  text-decoration: none;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font:  15px/40px Verdana;
+  text-shadow: 1px 2px 1px white;
+  float: left;
+  transition: all 0.8s;
+
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s}
+
+.buttonbawah:hover {
+  /*nilai perubahan*/
+  background: #d2bfbf69;
+  color: white;
+  text-shadow: 1px 2px 2px #111;
+  transform:rotate(0deg);
+  text-decoration: none;
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  box-shadow: 2px 4px 3px 2px #222}
+ body{
+ 		background-color: white;
+ 				/*background: url(image/background.png) no-repeat center center fixed; */
+            	position: relative;
+                background-size: cover;}
+
+.formnya-contact{
+	max-width: 450px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.formnya-contact label{
+	display:block;
+	margin-bottom: 10px;
+}
+.formnya-contact label > span{
+	float: left;
+	width: 100px;
+	color: #989094;
+	font-weight: bold;
+	font-size: 15px;
+	text-shadow: 1px 1px 1px #fff;
+}
+.formnya-contact fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ccc8c8;
+	padding: 20px;
+	background: #ffffff;
+	box-shadow: inset 0px 0px 15px #FFE5E5;
+	-moz-box-shadow: inset 0px 0px 15px #FFE5E5;
+	-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+.formnya-contact fieldset legend{
+	color: #989094;
+	border-top: 1px solid #FFD2D2;
+	border-left: 1px solid #FFD2D2;
+	border-right: 1px solid #FFD2D2;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #ffffff;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px #F1F1F1;
+	-moz-box-shadow:-0px -1px 2px #F1F1F1;
+	-webkit-box-shadow:-0px -1px 2px #F1F1F1;
+	font-weight: normal;
+	font-size: 19px;
+}
+.formnya-contact textarea{
+	width:250px;
+	height:100px;
+}
+.formnya-contact input[type=text],
+.formnya-contact input[type=date],
+.formnya-contact input[type=datetime],
+.formnya-contact input[type=number],
+.formnya-contact input[type=search],
+.formnya-contact input[type=time],
+.formnya-contact input[type=url],
+.formnya-contact input[type=email],
+.formnya-contact select, 
+.formnya-contact textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #FFC2DC;
+	outline: none;
+	color: #989094;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: #f9e7be;
+	width:50%;
+}
+
+.formnya-contact  input[type=submit],
+.formnya-contact  input[type=button]{
+	background: #e6b24f;
+	border: 1px solid #e0a729;
+	padding: 5px 15px 5px 15px;
+	color: #FFCBE2;
+	margin-left: 70px;
+	box-shadow: inset -1px -1px 3px #FF62A7;
+	-moz-box-shadow: inset -1px -1px 3px #FF62A7;
+	-webkit-box-shadow: inset -1px -1px 3px #ecc228;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+}
+.formnya-contact .required{
+	color:red;
+	font-weight:normal;
+}
+#Price{
+	width: 50%;
+	float: left;
+}
+#FotoPrice{
+	margin-left: 200px;
+	float: left;
+}
+
+
+
+
+
+
+}
+
+}
+
+
+
